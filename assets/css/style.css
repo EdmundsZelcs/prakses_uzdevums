@@ -1,0 +1,11 @@
+.body{
+    background-color: gray;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
