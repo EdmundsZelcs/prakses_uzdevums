@@ -1,31 +1,4 @@
-.text{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #2F4858;
-}
-.text_ideja{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #2F4858;
-}
-#fontins{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #2F4858;
-}
-#vards{
+.vards{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -35,8 +8,9 @@
     align-items: center;
     letter-spacing: -0.015em;
     color: #2F4858;
+    background: rgba(196, 196, 196, 0.4);
 }
-#epasts{
+.epasts{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -45,9 +19,10 @@
     display: flex;
     align-items: center;
     letter-spacing: -0.015em;
-    color: #2F4858;   
+    color: #2F4858; 
+    background: rgba(196, 196, 196, 0.4);  
 }
-#telefons{
+.telefons{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -57,16 +32,18 @@
     align-items: center;
     letter-spacing: -0.015em;
     color: #2F4858;
+    background: rgba(196, 196, 196, 0.4);
 }
-#jautajums{
+.jautajums{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #2F4858;
+    background: rgba(196, 196, 196, 0.4);
 }
-#obl{
+.obl{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -85,7 +62,17 @@
     
     color: #2F4858;
 }
-#linki{
+.piekritu{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #2F4858;
+}
+/* #linki{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -159,5 +146,25 @@
     color: #2F4858;
 }
 .arrow{
+    color: #2F4858;
+} */
+.SparkleHeart{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #2F4858;
+}
+.fontins{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
     color: #2F4858;
 }
