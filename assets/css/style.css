@@ -1,11 +1,119 @@
+
+#navbar{
+    justify-content: space-around;
+}
+.sparkle{
+    position: relative;
+    overflow: hidden;
+    top: 47px;
+}
+.platforma{
+    position: absolute;
+    width: 950px;
+    margin-top: -10%;
+    margin-left: 15%;
+}
+.sparkle1{
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 50%;
+}
+#top{
+    background: #FFFFFF;
+}
 .body{
-    background-color: gray;
+    overflow-x: hidden;
 }
-.navbar-nav{
-    margin-left: auto;
+.text{
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.text_ideja{
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.column {
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+#poga{
+    margin-top: 5%;
+}
+
+#telefons{
+    margin-top: 2%;
+}
+#jautajums{
+    margin-top: 2%;
+}
+input[type=text] {
+    background-color: lightgray;
+}
+textarea[type=text] {
+  background-color: lightgray;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 30px;
+}
+.photo {
+    max-width: 25%;
+    padding: 0 10px;
+}
+.photo img {
+    width: 80%;
+    height: 65%;
+}
+.atbalstitaji{
+    background-color: #FFCB66;
+}
+.atb{
+    margin-top: 5%;
+}
+.photo1{
+    max-width: 90%;
+    max-height: 90%;
+    margin-bottom: 5%;
+}
+.copyright{
+    margin-bottom: -2%;
+}
+
+#footer{
+    background-color:#2F4858;
+}
+.atzina{
+    margin-top: 15%;
+    width: 500px;
+    padding: 10px;
+    margin-left: 30%;
+    margin-bottom: 15%;
+}
+.arrow {
+    margin-top: 5%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 7px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 5%;
+}
+  
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
 }
